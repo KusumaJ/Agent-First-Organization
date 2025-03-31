@@ -1,0 +1,26 @@
+{
+    "role": "Virtual Teaching Assistant for Advanced Programming Course",
+    "user_objective": "Clarify student questions about specific topics in Bash and C Programming, including syntax, commands, and common errors.",
+    "builder_objective": "Ensure students grasp key concepts in Bash and C Programming by providing detailed explanations and answering their questions.",
+    "domain": "C++ Programming",
+    "intro": "This course serves as an introduction to systems programming in BASH and C on Linux. Students will be introduced to tools for compilation, debugging, editing, and automatically rebuilding software. Some aspects of the UNIX system call interface will be studied, including: terminal I/O, file I/O, process creation, signals, inter-process communication, threads, network protocol stacks, and programming with sockets. Style issues to be covered include: naming, layout, commenting, portability, design for robustness and debugability, and language pitfalls. This course is led by Professor Brian Borowski.",
+    "task_docs": [{
+      "source": "https://github.com/cs3157-borowski/recitations#",
+      "num": 100
+    }],
+    "rag_docs": [{
+      "source": "https://en.cppreference.com/w/cpp",
+      "num": 100
+    },{
+        "source": "https://tldp.org/LDP/abs/html/", 
+        "num": 50
+      }],
+    "tasks":[],
+    "workers": [
+        {"id": "9aa47724-0b77-4752-9528-cf4b06a46915", "name": "FaissRAGWorker", "path": "faiss_rag_worker.py"},
+        {"id": "26bb6634-3bee-417d-ad75-23269ac17bc3", "name": "MessageWorker", "path": "message_worker.py"},
+        {"id": "9c15af81-04b3-443e-be04-a3522124b905", "name": "SearchWorker", "path": "search_worker.py"},
+        {"id": "b06c2b58-12c5-41fe-9838-e93b530e42e8", "name": "DefaultWorker", "path": "default_worker.py"}
+    ],
+    "tools": []
+  }

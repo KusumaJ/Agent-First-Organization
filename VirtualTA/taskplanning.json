@@ -1,0 +1,102 @@
+[
+    {
+        "task_name": "Provide help in clarifying course materials",
+        "steps": [
+            "Greet the user and ask which specific course materials or topics they need clarification on.",
+            "Listen to the user's query and provide detailed information or explanations related to the specified course material.",
+            "Ask the user if they need further clarification on related topics or if there are any other areas of the course they would like assistance with.",
+            "Encourage the user to ask additional questions or mention specific challenges they are facing in the course.",
+            "Provide resources or suggestions for further learning, such as recommended readings or exercises related to the user's questions."
+        ]
+    },
+    {
+        "task_name": "Assist in solving programming exercises",
+        "steps": [
+            "Ask the user to describe the programming exercise they are working on and what specific challenges they are facing.",
+            "Provide relevant clarifications or explanations related to the programming concepts involved in the user's exercise.",
+            "Ask if the user would like more examples or additional resources related to the concepts being discussed.",
+            "Encourage the user to attempt solving the exercise again with the provided guidance and ask for any further assistance if needed.",
+            "Offer to review the user's code or solution if they have made progress and provide constructive feedback or suggestions."
+        ]
+    },
+    {
+        "task_name": "Provide information on system calls and their usage",
+        "steps": [
+            "Ask the user to specify which system calls they need information about or what specific aspect of system calls they would like to learn.",
+            "Provide an explanation or overview of the specified system calls, including their purpose, syntax, and common use cases.",
+            "Inquire if the user has any particular examples or scenarios in mind where they want to use these system calls.",
+            "Assist the user by providing examples or code snippets that demonstrate how to implement the system calls in a practical context.",
+            "Ask the user if they need further clarification on the examples provided or have any other questions related to system calls."
+        ]
+    },
+    {
+        "task_name": "Explain debugging techniques applicable to BASH and C",
+        "steps": [
+            "Ask the user if they are looking for debugging techniques related to BASH, C, or both.",
+            "Provide a brief overview of debugging techniques for the chosen programming language, explaining one technique at a time.",
+            "Ask the user if they would like more detailed information on the technique just explained or if they want to learn about another technique.",
+            "Explain the next debugging technique or offer to clarify any doubts regarding the previously discussed technique.",
+            "Confirm if the user has understood the techniques discussed, or if they need further assistance or examples."
+        ]
+    },
+    {
+        "task_name": "Provide information on compiling code in BASH and C",
+        "steps": [
+            "Ask the user what specific programming language or topic they need help with, either BASH or C, related to compiling code.",
+            "Provide a brief explanation of the compiling process for the selected language, including the necessary commands or tools required.",
+            "Inquire if the user has specific code snippets or files they need assistance with in compiling, or if they would like to see an example.",
+            "Walk the user through the compiling process step-by-step, based on their input or example provided, ensuring clarity and understanding.",
+            "Ask if the user has any further questions about the compiling process in BASH or C, or if they need additional help with related topics."
+        ]
+    },
+    {
+        "task_name": "Explain concepts related to inter-process communication",
+        "steps": [
+            "Begin by asking the user which specific concepts related to inter-process communication they would like clarification on.",
+            "Provide a detailed explanation of the selected inter-process communication concept, including examples where applicable.",
+            "Encourage the user to ask follow-up questions or clarify any points that may be confusing.",
+            "Assess the user's understanding by asking if they would like to explore related topics or deeper aspects of inter-process communication.",
+            "Summarize the key points discussed and suggest additional resources or exercises for further learning."
+        ]
+    },
+    {
+        "task_name": "Provide assistance with socket programming concepts",
+        "steps": [
+            "Ask the user to specify which aspect of socket programming they need assistance with (e.g., basics, APIs, networking concepts, specific programming language).",
+            "Provide a brief overview or explanation based on the user's specified aspect of socket programming.",
+            "Inquire if the user has any specific questions or examples they would like to discuss further.",
+            "Respond to the user's queries with detailed explanations, examples, or code snippets related to socket programming.",
+            "Check if the user needs additional clarification on the provided information or further assistance with related concepts."
+        ]
+    },
+    {
+        "task_name": "Explain threading concepts in C",
+        "steps": [
+            "Ask the user if they have any specific questions regarding threading concepts in C or if they would like a general overview.",
+            "If the user requests a general overview, explain the basic principles of threading in C, including what threads are and why they are used.",
+            "Inquire if the user wants more detailed information about a specific threading concept, such as thread creation, synchronization, or management.",
+            "Provide a detailed explanation of the specific threading concept the user requested, including relevant code snippets or examples if applicable.",
+            "Ask the user if they have any further questions or need clarification on any of the topics covered."
+        ]
+    },
+    {
+        "task_name": "Provide guidelines on coding style and best practices",
+        "steps": [
+            "Ask the user to specify the programming language they are focusing on for coding style and best practices.",
+            "Provide general coding style guidelines and best practices specific to the user's selected programming language.",
+            "Inquire if the user has specific scenarios or examples in mind where they need clarification on coding style or practices.",
+            "Offer tailored advice or corrections for the specific scenarios or examples provided by the user.",
+            "Ask the user if they would like additional resources or references to further enhance their understanding of the coding styles and best practices."
+        ]
+    },
+    {
+        "task_name": "Clarify project requirements and expectations",
+        "steps": [
+            "Inquire about the specific project the user is working on and ask them to describe their current understanding of the requirements.",
+            "Clarify any ambiguous points in the user's description of their project and ask if they need specific examples or additional resources related to the project requirements.",
+            "Ask the user if they have any specific questions about the expectations for the project or the grading criteria.",
+            "Confirm the user has a clear understanding of the project requirements and ask if they need further assistance with planning or executing their project.",
+            "Provide relevant resources or tips for the user to organize their project work effectively based on the earlier discussions."
+        ]
+    }
+]

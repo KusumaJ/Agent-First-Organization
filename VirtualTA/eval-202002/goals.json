@@ -1,0 +1,4 @@
+[
+    "I want to understand how to use `std::tuple::swap` effectively in my C++ code, including its syntax, exceptions, and any differences in behavior across different C++ standards.",
+    "I want to ask the chatbot for explanations of specific C++ type support features, such as the differences between `nullptr_t` and `NULL`, or how to use `numeric_limits` to query properties of numeric types."
+]

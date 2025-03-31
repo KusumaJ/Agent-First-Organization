@@ -1,0 +1,7 @@
+[
+    "I want to understand how to use `std::span<T, Extent>::back` in my C++ code, including its behavior, potential pitfalls, and examples of its usage.",
+    "I want to understand the differences between freestanding and hosted implementations in C++, including the specific requirements for each type and the headers that are available in a freestanding implementation.",
+    "I want to understand how to use the `std::erase_if` function with `std::flat_multimap` in my C++ code, including its parameters, return value, and any potential exceptions that might be thrown.",
+    "I want to ask the chatbot about the differences between the C++ standard library versions, specifically what new features were introduced in C++20 and C++26.",
+    "I want to understand how to use the `std::same_as` concept in my C++ code and see more examples of its practical applications."
+]

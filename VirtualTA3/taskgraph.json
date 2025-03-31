@@ -1,0 +1,1477 @@
+{
+    "nodes": [
+        [
+            "0",
+            {
+                "resource": {
+                    "id": null,
+                    "name": "MessageWorker"
+                },
+                "attribute": {
+                    "value": "Hello and welcome to your Virtual Teaching Assistant for the Advanced Programming Course! I'm here to help you with any questions about C or Bash programming. What do you need assistance with today?",
+                    "task": "start message",
+                    "directed": false
+                },
+                "limit": 1,
+                "type": "start"
+            }
+        ],
+        [
+            "1",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Which specific C programming concept would you like to learn more about? Examples include variables, loops, or functions.",
+                    "task": "Ask the user to specify which C programming concept they would like clarification on (e.g., variables, loops, functions).",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "2",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "A variable in C is used to store data that can be changed during program execution.",
+                    "task": "Provide a brief explanation or definition of the requested C programming concept.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "3",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like any examples or further insights related to this concept?",
+                    "task": "Inquire if the user needs examples or further insights related to the concept mentioned.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "4",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here is an example of a variable in C:\n\n```c\nint main() {\n    int x = 5;\n    printf(\"Value of x: %d\", x);\n    return 0;\n}\n```",
+                    "task": "If the user requests examples, provide relevant code snippets or scenarios demonstrating the concept.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "5",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any additional questions or is there another C programming topic you would like to discuss?",
+                    "task": "Ask the user if they have any additional questions or need clarification on another C programming topic.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "6",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Welcome! What specific questions or challenges do you have regarding Bash scripting fundamentals?",
+                    "task": "Welcome the user and inquire about their specific questions or challenges regarding Bash scripting fundamentals.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "7",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Bash scripting is a way to automate tasks on Unix-like systems by writing scripts that can execute commands in the Bash shell.",
+                    "task": "Provide a brief explanation or clarification based on the user's question about Bash scripting, ensuring the information is clear and relevant.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "8",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you need further clarification on this topic, or would you like to learn about something else related to Bash scripting?",
+                    "task": "Ask the user if they need further clarification on that topic or if they would like to learn about another aspect of Bash scripting.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "9",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here are some additional resources and examples that might help you better understand Bash scripting.",
+                    "task": "Offer additional resources or examples to help the user better understand Bash scripting if they express the need for more information.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "10",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "I encourage you to practice what you've learned. Do you have any more questions or need further assistance with your Bash scripting studies?",
+                    "task": "Encourage the user to practice what they've learned and ask if they have any more questions or need further assistance with their Bash scripting studies.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "11",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Which compilation tools are you interested in learning more about in C and Bash?",
+                    "task": "Ask the user to specify which compilation tools they would like to learn more about in C and Bash.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "12",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "The GCC compiler is used for compiling C programs, while Bash uses tools like 'make' for managing build processes. Would you like more details on these?",
+                    "task": "Provide information about the specified compilation tools and their functions in both C and Bash, ensuring the explanations are clear and concise.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "13",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like to see examples of how to use these compilation tools in practical scenarios?",
+                    "task": "Inquire if the user wants examples of how to use the mentioned compilation tools in practical scenarios.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "14",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here is a simple example: To compile a C program using GCC, you would use the command 'gcc filename.c -o outputfile'. For Bash, a command might be 'make build' if you have a Makefile.",
+                    "task": "Offer example code snippets or commands demonstrating the usage of the compilation tools in C and Bash.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "15",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any further questions or need additional clarification about the compilation tools?",
+                    "task": "Ask the user if they have any further questions or need additional clarification regarding the compilation tools.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "16",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you need help with debugging C programs, Bash programs, or both?",
+                    "task": "Ask the user to specify whether they need debugging methods for C programs, Bash programs, or both.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "17",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "For C programs, common debugging methods include using gdb, printf debugging, and memory checking tools like Valgrind. For Bash programs, you can use 'set -x' for debugging or echo statements to trace execution.",
+                    "task": "Based on the user's response, provide a brief overview of common debugging methods applicable to C programs or Bash programs.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "18",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have a specific debugging scenario or code issue that you would like assistance with?",
+                    "task": "Inquire if the user has a specific debugging scenario or code issue they would like assistance with.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "19",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "To debug your C program, consider using gdb to step through your code line by line. You can also check for segmentation faults using Valgrind.",
+                    "task": "Offer detailed debugging techniques or tips tailored to the user's specific scenario or code issue.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "20",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you need further clarification on any of these debugging methods, or is there another topic related to debugging you would like to explore?",
+                    "task": "Ask if the user needs further clarification on any of the methods or if there are more topics related to debugging they would like to explore.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "21",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific aspects of file and terminal I/O in UNIX systems would you like to discuss?",
+                    "task": "Ask the user what specific aspects of file and terminal I/O in UNIX systems they would like to discuss.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "22",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "File I/O in UNIX systems involves reading from and writing to files using standard system calls. Terminal I/O allows interaction with users through the terminal interface.",
+                    "task": "Provide a clarification or explanation related to the user's question, focusing on file and terminal I/O concepts.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "23",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have a specific example or scenario in mind where you need help with file and terminal I/O?",
+                    "task": "Inquire if the user has a specific example or scenario in mind where they need help with file and terminal I/O.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "24",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Based on your example, you can use the 'open' system call to open a file and the 'read' or 'write' calls to manipulate it.",
+                    "task": "Offer further clarification or additional information based on the user's example or scenario.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "25",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any additional questions or need more resources on file and terminal I/O in UNIX systems?",
+                    "task": "Ask if the user has any additional questions or needs more resources on file and terminal I/O in UNIX systems.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "26",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Hello! What specific aspect of C programming are you interested in or need help with?",
+                    "task": "Greet the user and inquire about their specific interest or challenge within C programming to tailor the support provided.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "27",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "One important best practice in C programming is to ensure proper memory management. Always remember to free allocated memory to avoid leaks.",
+                    "task": "Based on the user's response, provide best practices related to C programming, such as proper memory management, code modularity, and error handling.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "28",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like me to provide examples or further clarify any of these best practices in C programming?",
+                    "task": "Ask the user if they would like examples or further clarification on any of the practices mentioned.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "29",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here is an example of proper memory management in C: `int *arr = malloc(size * sizeof(int)); // use arr here // free(arr);`",
+                    "task": "If the user requests examples, provide code snippets or scenarios that illustrate the best practices in action.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "30",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Feel free to ask any follow-up questions or let me know if there are specific areas in C programming you'd like to explore further!",
+                    "task": "Encourage the user to ask follow-up questions or share specific areas they would like more information on regarding C programming.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "31",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Hello! Do you have any specific questions about inter-process communication methods in UNIX that I can help you with?",
+                    "task": "Greet the user and ask if they have any specific questions about inter-process communication methods in UNIX.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "32",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Great question! Pipes are one common method of inter-process communication, allowing the output of one process to be used as input for another. Would you like to know more about how to implement them?",
+                    "task": "If the user has a specific question, provide a detailed explanation of that method (e.g., pipes, message queues, shared memory) as needed.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "33",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "In UNIX, there are several inter-process communication methods, including pipes, message queues, and shared memory. Each method serves different use cases, such as synchronous or asynchronous communication.",
+                    "task": "If the user is seeking a general overview, summarize the various inter-process communication methods available in UNIX.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "34",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like further examples or clarifications on any specific inter-process communication method I mentioned?",
+                    "task": "Ask the user if they would like further examples or clarifications on any specific inter-process communication method.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "35",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "If you're interested in learning more, I can provide additional resources or exercises related to inter-process communication in practice. Would you like that?",
+                    "task": "Offer additional resources or exercises if they wish to learn more about inter-process communication in practice.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "36",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific aspect of signals in C programming would you like to clarify?",
+                    "task": "Begin by asking the user what specific aspect of signals in C programming they would like to clarify.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "37",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "In C programming, particularly in UNIX, signals are notifications sent to a process in order to notify it that a particular event has occurred. Common signals include SIGINT, SIGTERM, and SIGKILL.",
+                    "task": "Provide a brief overview of what signals are in the context of C programming, especially in UNIX.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "38",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like to see examples of how to handle signals in C or learn about specific signal functions?",
+                    "task": "Ask if the user would like examples of handling signals in C or specific signal functions.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "39",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here is an example of handling the SIGINT signal in C: \n\n```c\n#include <stdio.h>\n#include <signal.h>\n#include <stdlib.h>\n\nvoid handle_sigint(int sig) {\n    printf(\"Caught SIGINT!\\n\");\n    exit(0);\n}\n\nint main() {\n    signal(SIGINT, handle_sigint);\n    while (1) {\n        printf(\"Running...\\n\");\n        sleep(1);\n    }\n}\n```",
+                    "task": "Provide examples or code snippets related to signal handling based on the user's preferences.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "40",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Feel free to ask any further questions related to signals or any other topic in C programming!",
+                    "task": "Invite the user to ask any further questions related to signals or any other topic in C programming.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "41",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific topics or concepts related to threading in C programming would you like to understand better?",
+                    "task": "Ask the user for specific topics or concepts related to threading in C programming that they would like to understand better.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "42",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Thread creation in C can be done using the pthread_create function. This enables you to spawn new threads that can execute concurrently with the main program.",
+                    "task": "Based on the user's input, provide a detailed explanation or clarification of the threading concepts mentioned, such as thread creation, synchronization, or thread safety.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "43",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any follow-up questions or would you like me to clarify anything further on topics like mutexes or condition variables?",
+                    "task": "Inquire if the user has any follow-up questions or if they need further explanations on related topics, like mutexes, condition variables, or thread libraries.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "44",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here is a simple code snippet that illustrates thread creation in C using pthreads. Would you like to see more examples?",
+                    "task": "Offer practical examples or code snippets to demonstrate threading concepts in action if the user requests it.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "45",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like to explore additional resources or exercises to help reinforce your understanding of threading in C programming?",
+                    "task": "Ask the user if they would like to explore additional resources or exercises to reinforce their understanding of threading in C programming.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "46",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific aspect of networking using sockets in C do you need help with? For instance, are you looking to create a socket, bind it, listen for connections, or something else?",
+                    "task": "Ask the user what specific aspect of networking using sockets in C they need help with (e.g., creating a socket, binding, listening, accepting connections).",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "47",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here's a simple example of creating a socket in C: `int sockfd = socket(AF_INET, SOCK_STREAM, 0);`. This creates a TCP socket.",
+                    "task": "Provide a brief explanation or example code snippet based on the user's specific query regarding networking in sockets.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "48",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you need any further clarification on the socket creation example I provided?",
+                    "task": "Ask the user if they need further clarification on the provided explanation or example.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "49",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Since you wanted to know more about binding, here's how to bind a socket: `bind(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr));`. Would you like more details on this?",
+                    "task": "Based on the user's response, delve deeper into the topic or provide additional resources or examples that could aid their understanding.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "50",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any more questions on sockets in C, or is there another topic related to C programming that you'd like to discuss?",
+                    "task": "Confirm if the user has any more questions on sockets in C or if they would like to explore another topic related to C programming.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ]
+    ],
+    "edges": [
+        [
+            "0",
+            "1",
+            {
+                "intent": "User wants to clarify topics in C programming",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "1",
+            "2",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "2",
+            "3",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "3",
+            "4",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "4",
+            "5",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "6",
+            {
+                "intent": "User seeks assistance with Bash scripting basics",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "6",
+            "7",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "7",
+            "8",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "8",
+            "9",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "9",
+            "10",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "11",
+            {
+                "intent": "User is interested in tools for compilation",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "11",
+            "12",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "12",
+            "13",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "13",
+            "14",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "14",
+            "15",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "16",
+            {
+                "intent": "User needs help with debugging techniques",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "16",
+            "17",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "17",
+            "18",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "18",
+            "19",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "19",
+            "20",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "21",
+            {
+                "intent": "User wants to understand I/O operations in UNIX",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "21",
+            "22",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "22",
+            "23",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "23",
+            "24",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "24",
+            "25",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "26",
+            {
+                "intent": "User seeks advice on design principles for robustness",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "26",
+            "27",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "27",
+            "28",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "28",
+            "29",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "29",
+            "30",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "31",
+            {
+                "intent": "User has questions about inter-process communication",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "31",
+            "32",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "32",
+            "33",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "33",
+            "34",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "34",
+            "35",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "36",
+            {
+                "intent": "User wants to learn about signaling in processes",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "36",
+            "37",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "37",
+            "38",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "38",
+            "39",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "39",
+            "40",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "41",
+            {
+                "intent": "User is looking for information on threads",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "41",
+            "42",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "42",
+            "43",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "43",
+            "44",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "44",
+            "45",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "46",
+            {
+                "intent": "User needs assistance with network programming",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "46",
+            "47",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "47",
+            "48",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "48",
+            "49",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "49",
+            "50",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ]
+    ],
+    "role": "Virtual Teaching Assistant for Advanced Programming Course",
+    "user_objective": "The Virtual Teaching Assistant provides clarifications on course materials and support self-learning under the topics of C and Bash programming.",
+    "builder_objective": "The Virtual Teaching Assistant collects overall's confusion and track student progress.",
+    "domain": "Programming",
+    "intro": "This course serves as an introduction to systems programming in BASH and C on Linux. Students will be introduced to tools for compilation, debugging, editing, and automatically rebuilding software. Some aspects of the UNIX system call interface will be studied, including: terminal I/O, file I/O, process creation, signals, inter-process communication, threads, network protocol stacks, and programming with sockets. Style issues to be covered include: naming, layout, commenting, portability, design for robustness and debugability, and language pitfalls. This course is led by Professor Brian Borowski.",
+    "task_docs": [
+        {
+            "source": "https://github.com/cs3157-borowski/recitations#",
+            "num": 200
+        }
+    ],
+    "rag_docs": [
+        {
+            "source": "https://en.cppreference.com/w/cpp",
+            "num": 100
+        },
+        {
+            "source": "https://tldp.org/LDP/abs/html/",
+            "num": 50
+        },
+        {
+            "source": "http://www.catb.org/esr/structure-packing/",
+            "num": 50
+        },
+        {
+            "source": "https://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/",
+            "num": 50
+        }
+    ],
+    "tasks": [],
+    "workers": [
+        {
+            "id": "9aa47724-0b77-4752-9528-cf4b06a46915",
+            "name": "FaissRAGWorker",
+            "path": "faiss_rag_worker.py"
+        },
+        {
+            "id": "26bb6634-3bee-417d-ad75-23269ac17bc3",
+            "name": "MessageWorker",
+            "path": "message_worker.py"
+        },
+        {
+            "id": "9c15af81-04b3-443e-be04-a3522124b905",
+            "name": "SearchWorker",
+            "path": "search_worker.py"
+        },
+        {
+            "id": "b06c2b58-12c5-41fe-9838-e93b530e42e8",
+            "name": "DefaultWorker",
+            "path": "default_worker.py"
+        }
+    ],
+    "tools": [],
+    "nluapi": "",
+    "slotfillapi": ""
+}

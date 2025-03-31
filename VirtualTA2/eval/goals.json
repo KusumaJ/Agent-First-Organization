@@ -1,0 +1,4 @@
+[
+    "I want to understand how to implement the `std::equality_comparable` and `std::equality_comparable_with` concepts in my C++ code, including their requirements and how they relate to equality comparisons between different types.",
+    "I want to understand how to properly use `std::mbstate_t` in my multibyte character encoding conversions and learn about any potential pitfalls or best practices, especially regarding thread safety."
+]

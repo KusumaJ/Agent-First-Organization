@@ -1,0 +1,7 @@
+[
+    "I want to understand how to use the `insert_range` function in `std::flat_multimap`, including its parameters, return value, and any potential complexities or caveats associated with it.",
+    "I want to understand how to use `std::ranges::search` effectively in my C++ code, including its parameters, return values, and examples of its usage.",
+    "I want to understand how to effectively use the `std::strided_slice` in my C++ projects, including its template parameters, member types, and practical examples of slicing multidimensional arrays.",
+    "I want to understand the differences between freestanding and hosted implementations in C++, specifically what features and headers are available in each type, and how they affect program execution and requirements for the main function.",
+    "I want to understand how to use `std::atomic_flag::notify_one` in my multithreaded C++ application and see an example of its implementation."
+]

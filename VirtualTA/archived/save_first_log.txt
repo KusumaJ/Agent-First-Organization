@@ -1,0 +1,258 @@
+(.venv) (.venv) (base) kusumaj@Kusumas-MacBook-Air-2 Agent-First-Organization % python create.py --config ./cpp_virtualTA_config.json --output-dir ./VirtualTA
+[03/30/2025 09:37:03] {env.py:68} ERROR - Worker FaissRAGWorker is not registered, error: No module named 'langgraph'
+[03/30/2025 09:37:03] {env.py:68} ERROR - Worker MessageWorker is not registered, error: No module named 'langgraph'
+[03/30/2025 09:37:03] {env.py:68} ERROR - Worker SearchWorker is not registered, error: No module named 'langgraph'
+[03/30/2025 09:37:03] {loader.py:130} INFO - Getting all pages for base url: ./VirtualTA/Materials, maximum number is: 20
+[03/30/2025 09:37:03] {loader.py:168} ERROR - Fail to get the page from ./VirtualTA/Materials: Invalid URL './VirtualTA/Materials': No scheme supplied. Perhaps you meant https://./VirtualTA/Materials?
+[03/30/2025 09:37:03] {loader.py:144} INFO - URLs visited: ['./VirtualTA/Materials']
+[03/30/2025 09:37:03] {loader.py:65} INFO - Start crawling 1 urls
+[03/30/2025 09:37:03] {logger.py:11} INFO - ====== WebDriver manager ======
+[03/30/2025 09:37:12] {logger.py:11} INFO - WebDriver version 125.0.6422.141 selected
+[03/30/2025 09:37:12] {logger.py:11} INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.141/mac-arm64/chromedriver-mac-arm64.zip
+[03/30/2025 09:37:12] {logger.py:11} INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.141/mac-arm64/chromedriver-mac-arm64.zip
+[03/30/2025 09:37:12] {logger.py:11} INFO - Driver downloading response is 200
+[03/30/2025 09:37:13] {logger.py:11} INFO - Driver has been saved in cache [/Users/kusumaj/.wdm/drivers/chromedriver/mac64/125.0.6422.7]
+[03/30/2025 09:37:13] {loader.py:76} INFO - chrome binary location: /Users/kusumaj/.wdm/drivers/chromedriver/mac64/125.0.6422.7/chromedriver-mac-arm64
+[03/30/2025 09:37:14] {loader.py:82} INFO - loading url: ./VirtualTA/Materials
+[03/30/2025 09:37:14] {loader.py:114} INFO - error crawling <arklex.utils.loader.URLObject object at 0x1346cccd0>
+[03/30/2025 09:37:14] {loader.py:115} ERROR - Message: invalid argument
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+0   chromedriver                        0x0000000102c676c8 cxxbridge1$str$ptr + 2791212
+1   chromedriver                        0x0000000102c5fc9c cxxbridge1$str$ptr + 2759936
+2   chromedriver                        0x00000001027b1ca4 cxxbridge1$string$len + 92532
+3   chromedriver                        0x000000010279bb58 cxxbridge1$string$len + 2088
+4   chromedriver                        0x0000000102799dc4 chromedriver + 187844
+5   chromedriver                        0x000000010279a910 chromedriver + 190736
+6   chromedriver                        0x00000001027b4de0 cxxbridge1$string$len + 105136
+7   chromedriver                        0x000000010283b118 cxxbridge1$string$len + 654824
+8   chromedriver                        0x000000010283a5f8 cxxbridge1$string$len + 651976
+9   chromedriver                        0x00000001027ed2fc cxxbridge1$string$len + 335820
+10  chromedriver                        0x0000000102c2c6c4 cxxbridge1$str$ptr + 2549544
+11  chromedriver                        0x0000000102c2f988 cxxbridge1$str$ptr + 2562540
+12  chromedriver                        0x0000000102c0c71c cxxbridge1$str$ptr + 2418560
+13  chromedriver                        0x0000000102c301e8 cxxbridge1$str$ptr + 2564684
+14  chromedriver                        0x0000000102bfd750 cxxbridge1$str$ptr + 2357172
+15  chromedriver                        0x0000000102c4ff58 cxxbridge1$str$ptr + 2695100
+16  chromedriver                        0x0000000102c500e0 cxxbridge1$str$ptr + 2695492
+17  chromedriver                        0x0000000102c5f910 cxxbridge1$str$ptr + 2759028
+18  libsystem_pthread.dylib             0x00000001949942e4 _pthread_start + 136
+19  libsystem_pthread.dylib             0x000000019498f0fc thread_start + 8
+
+[03/30/2025 09:37:14] {loader.py:206} INFO - pagerank results: []
+[03/30/2025 09:37:15] {client.py:1925} WARNING - Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:37:15] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:37:21] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:37:22] {generator.py:419} INFO - Generated tasks: [{'intent': 'User needs clarification on course materials', 'task': 'Provide explanation and clarification of course materials'}, {'intent': 'User has technical queries related to BASH or C programming', 'task': 'Provide help in resolving technical queries on BASH or C programming'}, {'intent': 'User requires assistance in using programming tools', 'task': 'Provide guidance on using compilation, debugging, and other programming tools'}, {'intent': 'User seeks advice on UNIX system calls and network programming', 'task': 'Provide insights and advice on UNIX system calls and network programming with sockets'}, {'intent': 'User wants feedback on code and programming style', 'task': 'Offer feedback on code quality, style, portability, and design standards'}, {'intent': 'User needs support with learning activities and projects', 'task': 'Assist with understanding and implementing course projects and learning activities'}]
+  0%|                                                                                                                    | 0/6 [00:00<?, ?it/s][03/30/2025 09:37:22] {generator.py:427} INFO - Generating best practice for task 0: {'intent': 'User needs clarification on course materials', 'task': 'Provide explanation and clarification of course materials'}
+[03/30/2025 09:37:22] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:37:25] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:37:25] {generator.py:228} INFO - Best practice detection: Task: The current task is Provide explanation and clarification of course materials. The current node level of the task is 1.  
+Resources:  
+DefaultWorker: Default worker decided by chat records if there is no specific worker for the user's query
+
+Reasoning: The task of providing explanation and clarification of course materials is broad and nuanced, likely involving multiple layers of assistance. Clarifying course materials could encompass understanding specific topics, solving problems, and answering various queries related to different parts of the material. Given that there is only a DefaultWorker designated for this task, which is a general-purpose resource, it is insufficient to address the potential complexity and variety of this task at a high level. Thus, it would require further decomposition to identify specific aspects of the course materials that need explanation or clarification. This will enable a more tailored and targeted approach, possibly requiring additional specialized resources which the DefaultWorker cannot provide alone. Therefore, the task requires decomposing to be effectively managed.
+
+Answer:
+```json
+{
+    "answer": "Yes"
+}
+```
+[03/30/2025 09:37:26] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:37:29] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:37:29] {generator.py:429} INFO - Generated best practice for task 0: [{'step': 1, 'task': 'Ask the student to specify the topic or section of the course material they need help with.'}, {'step': 2, 'task': 'Use the DefaultWorker to provide a clear and concise explanation of the specified topic or section.'}, {'step': 3, 'task': 'Ask the student if the explanation was clear or if they need further clarification.'}, {'step': 4, 'task': 'If needed, provide additional examples or resources to aid understanding.'}, {'step': 5, 'task': "Confirm the student's comprehension and offer further assistance if required."}]
+ 17%|██████████████████                                                                                          | 1/6 [00:07<00:36,  7.29s/it][03/30/2025 09:37:29] {generator.py:427} INFO - Generating best practice for task 1: {'intent': 'User has technical queries related to BASH or C programming', 'task': 'Provide help in resolving technical queries on BASH or C programming'}
+[03/30/2025 09:37:29] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[03/30/2025 09:37:29] {_base_client.py:1051} INFO - Retrying request to /chat/completions in 20.000000 seconds
+[03/30/2025 09:37:29] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:37:56] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:37:56] {generator.py:228} INFO - Best practice detection: To determine if the task needs to be decomposed, let's analyze the given task and resources:
+
+Task: Provide help in resolving technical queries on BASH or C programming.
+Current Node Level: 1
+
+Resources:
+- DefaultWorker: A general worker that is chosen based on chat records and if there is no specific worker for the user's query. The class skeleton of the worker is not fully described, but it's assumed to handle a broad range of queries in absence of a specialized worker.
+
+Reasoning:
+1. **Task Complexity**: The task involves providing assistance on technical queries specifically for BASH and C programming, which can encompass a wide range of topics and require specific expertise to resolve effectively.
+   
+2. **Resource Limitation**: The only resource mentioned is the DefaultWorker, which appears to be a generalist without specialization. It may not possess the detailed expertise required to effectively resolve or provide in-depth assistance for technical queries in BASH or C programming.
+
+3. **Task Scope**: Given that technical queries can be highly specific and vary greatly in complexity, a singular, general-purpose worker like DefaultWorker might not suffice to address specific topics within BASH and C programming. Each query could potentially require different levels of understanding and different types of expertise (e.g., debugging, syntax, performance optimization).
+
+4. **Level of the Node**: Since the task is at level 1, it's positioned as a high-level task that might inherently include multiple sub-components related to different aspects of programming queries.
+
+Considering these points, the current task is broad and may involve numerous specialized sub-tasks or queries. Therefore, it likely needs to be decomposed, requiring resources with specific expertise to handle different aspects of the technical queries effectively.
+
+Answer:
+```json
+{
+    "answer": "Yes"
+}
+```
+[03/30/2025 09:37:57] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:38:00] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:38:00] {generator.py:429} INFO - Generated best practice for task 1: [{'step': 1, 'task': 'Greet the user and inquire about the specific technical query they have regarding BASH or C programming.'}, {'step': 2, 'task': "Use the DefaultWorker to analyze the user's query and determine the area of difficulty (e.g., syntax, logic, compilation error)."}, {'step': 3, 'task': "Provide a detailed explanation or solution to address the user's query based on the analysis performed in the previous step."}, {'step': 4, 'task': 'Ask the user if the explanation or solution resolved their technical query or if they need further assistance.'}, {'step': 5, 'task': "Offer additional resources or suggest further learning activities related to the user's query if they need more information or practice."}]
+ 33%|████████████████████████████████████                                                                        | 2/6 [00:38<01:25, 21.49s/it][03/30/2025 09:38:00] {generator.py:427} INFO - Generating best practice for task 2: {'intent': 'User requires assistance in using programming tools', 'task': 'Provide guidance on using compilation, debugging, and other programming tools'}
+[03/30/2025 09:38:00] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[03/30/2025 09:38:00] {_base_client.py:1051} INFO - Retrying request to /chat/completions in 20.000000 seconds
+[03/30/2025 09:38:01] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:38:26] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:38:26] {generator.py:228} INFO - Best practice detection: To determine if the task "Provide guidance on using compilation, debugging, and other programming tools" at node level 1 requires decomposition, let's analyze the task and resources provided.
+
+**Task Analysis:**
+The task involves providing guidance on multiple aspects of programming tools, including compilation, debugging, and potentially other tools. This indicates the task may encompass several distinct areas that could require specialized guidance for each tool or concept.
+
+**Resource Analysis:**
+- **DefaultWorker**: This is the only worker provided and it determines how to handle queries based solely on chat records. There is no indication that this worker is specialized for handling queries about programming tools.
+
+**Reasoning:**
+Given that the task is broad and potentially involves multiple sub-tasks (such as different tools or techniques for compilation and debugging), it would likely require specific guidance or steps for each tool or concept involved. The DefaultWorker, as described, does not indicate specialization or adaptability to efficiently cover all aspects of this broad task. Therefore, the task would benefit from decomposition to ensure more specific and effective interaction, ideally using specialized resources (if they were available) that handle different aspects of programming tool guidance.
+
+Thus, since the task is broad and can be effectively partitioned into smaller, more manageable and focused sub-tasks (e.g., guidance on compilation tools, debugging tools, etc.), and given the generic nature of the provided resource, the task should be decomposed.
+
+Answer:
+```json
+{
+    "answer": "Yes"
+}
+```
+[03/30/2025 09:38:26] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[03/30/2025 09:38:26] {_base_client.py:1051} INFO - Retrying request to /chat/completions in 20.000000 seconds
+[03/30/2025 09:38:27] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:38:51] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:38:51] {generator.py:429} INFO - Generated best practice for task 2: [{'step': 1, 'task': 'Ask the user to specify the problem or question they have regarding compilation, debugging, or any other programming tool.'}, {'step': 2, 'task': "Provide guidance or instructions based on the user's specific query, leveraging the resources available to address the issue."}, {'step': 3, 'task': 'Ask the user if the information provided was helpful or if they require further clarification or assistance.'}, {'step': 4, 'task': 'If the user needs more help, offer additional tips or troubleshooting steps related to their query.'}, {'step': 5, 'task': 'Confirm with the user if their issue is resolved or if they would like to learn more about other programming tools.'}]
+ 50%|██████████████████████████████████████████████████████                                                      | 3/6 [01:29<01:45, 35.01s/it][03/30/2025 09:38:51] {generator.py:427} INFO - Generating best practice for task 3: {'intent': 'User seeks advice on UNIX system calls and network programming', 'task': 'Provide insights and advice on UNIX system calls and network programming with sockets'}
+[03/30/2025 09:38:51] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[03/30/2025 09:38:51] {_base_client.py:1051} INFO - Retrying request to /chat/completions in 20.000000 seconds
+[03/30/2025 09:38:52] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:39:19] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:39:19] {generator.py:228} INFO - Best practice detection: Reasoning: The task involves providing insights and advice on UNIX system calls and network programming with sockets, which is a broad and complex topic. At level 1 in the task hierarchy, this is a high-level task that encompasses multiple sub-topics such as file management, process control, inter-process communication, and socket programming details, among others. Considering the complexity and breadth of the subject matter, this task cannot be fully handled by the DefaultWorker alone. The DefaultWorker is likely not equipped with specialized knowledge or capabilities to address all intricate aspects of UNIX system calls and network programming. Therefore, it requires decomposition into smaller, more specific sub-tasks each potentially handled by specialized resources or workers with the appropriate expertise. This could mean breaking it down into more detailed queries, such as "Explain socket creation and management in UNIX" or "How do UNIX system calls handle file descriptors?" Therefore, the task needs to be decomposed into more focused tasks to be effectively addressed.
+
+Answer: 
+```json
+{
+    "answer": "Yes"
+}
+```
+[03/30/2025 09:39:19] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:39:23] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:39:23] {generator.py:429} INFO - Generated best practice for task 3: [{'step': 1, 'task': 'Ask the user for specific topics or issues they are facing with UNIX system calls or network programming with sockets.'}, {'step': 2, 'task': 'Provide an overview or explanation of the requested topic, ensuring clarity and relevance.'}, {'step': 3, 'task': 'Inquire if the user needs further clarification or examples related to the topic.'}, {'step': 4, 'task': 'Offer to provide additional resources or practice problems for deeper understanding.'}, {'step': 5, 'task': 'Ask if there are any other aspects of UNIX or socket programming they would like assistance with.'}, {'step': 6, 'task': 'Summarize the session and encourage the user to reach out for more help if needed.'}]
+ 67%|████████████████████████████████████████████████████████████████████████                                    | 4/6 [02:01<01:07, 33.64s/it][03/30/2025 09:39:23] {generator.py:427} INFO - Generating best practice for task 4: {'intent': 'User wants feedback on code and programming style', 'task': 'Offer feedback on code quality, style, portability, and design standards'}
+[03/30/2025 09:39:23] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[03/30/2025 09:39:23] {_base_client.py:1051} INFO - Retrying request to /chat/completions in 20.000000 seconds
+[03/30/2025 09:39:24] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:39:49] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:39:49] {generator.py:228} INFO - Best practice detection: The task of offering feedback on code quality, style, portability, and design standards is multifaceted. Each aspect of the feedback process requires specialized knowledge and criteria. Code quality may involve evaluating the correctness and efficiency of the code, style would require adherence to certain coding conventions, portability assesses whether code can run in different environments, and design standards focus on architectural considerations and best practices. 
+
+Given the current node level of the task is 1, it is seen as a high-level task. The presence of only a single resource, the DefaultWorker, implies that there is no specialized handling for each of the sub-tasks involved in providing detailed feedback. As such, this task likely requires further decomposition into specific sub-tasks that can be independently addressed. Each sub-task could potentially be handled or guided by workers specialized in those areas if they existed, or require consultation of different resources or domain experts.
+
+Therefore, due to the nature of the task requiring intricate and varied feedback that spans multiple conceptual areas, it necessitates decomposition to effectively manage and address each aspect with potentially varying approaches and tools.
+
+Answer: 
+```json
+{
+    "answer": "Yes"
+}
+```
+[03/30/2025 09:39:49] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[03/30/2025 09:39:49] {_base_client.py:1051} INFO - Retrying request to /chat/completions in 20.000000 seconds
+[03/30/2025 09:39:50] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:40:15] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:40:15] {generator.py:429} INFO - Generated best practice for task 4: [{'step': 1, 'task': 'Ask the user to provide specific code snippets or describe the area of the code they want feedback on, including mentioning any particular concerns or criteria they wish to focus on (e.g., style, quality, portability, design standards).'}, {'step': 2, 'task': 'Analyze the provided code snippet or details. Use DefaultWorker to evaluate the code based on quality, style, portability, and design standards.'}, {'step': 3, 'task': 'Provide detailed feedback on each of the mentioned criteria, highlighting strengths and areas for improvement.'}, {'step': 4, 'task': 'Ask the user if they require further clarification on any feedback point or additional guidance on other aspects.'}, {'step': 5, 'task': 'Offer additional resources or examples if necessary to help the user improve their code or understand the feedback better.'}]
+ 83%|██████████████████████████████████████████████████████████████████████████████████████████                  | 5/6 [02:53<00:40, 40.23s/it][03/30/2025 09:40:15] {generator.py:427} INFO - Generating best practice for task 5: {'intent': 'User needs support with learning activities and projects', 'task': 'Assist with understanding and implementing course projects and learning activities'}
+[03/30/2025 09:40:15] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+[03/30/2025 09:40:20] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[03/30/2025 09:40:20] {generator.py:228} INFO - Best practice detection: To determine whether the task "Assist with understanding and implementing course projects and learning activities" needs to be decomposed, let's evaluate the nature of the task and the available resources:
+
+Task: "Assist with understanding and implementing course projects and learning activities."
+- This is a high-level task that implies the need to assist users with multiple sub-tasks, including understanding project requirements, providing guidance on learning activities, clarifying doubts, and possibly providing resources or suggestions for completing projects.
+
+Resources: DefaultWorker
+- The DefaultWorker is described as a fallback resource that presumably handles queries for which there is no specific dedicated worker. The description lacks detail about the specific capabilities of DefaultWorker, suggesting it may not encompass specialized functions beyond basic interactions.
+
+Reasoning: Since the task involves multiple aspects such as comprehending, clarifying, guiding, and possibly customizing assistance based on individual course projects, it is inherently complex. The task likely requires specialized knowledge or tools to handle different aspects effectively. For instance, understanding project requirements might necessitate access to course material, assisting with learning activities might require instructional design expertise, and clarifying doubts could involve field-specific knowledge.
+
+Given the high complexity and the need for potentially diverse expertise or resources to effectively cover different facets of the task, it requires decomposition into smaller sub-tasks. These sub-tasks should be assigned to more specialized workers or processes if available, in order to provide thorough and effective assistance.
+
+Answer:
+```json
+{
+    "answer": "Yes"
+}
+```
+[03/30/2025 09:40:20] {_client.py:1025} INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[03/30/2025 09:40:20] {_base_client.py:1051} INFO - Retrying request to /chat/completions in 20.000000 seconds
+[03/30/2025 09:40:20] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+
+y
+ 83%|█████████████████████████████████████████████████████████████████████████████████████████▏                 | 5/6 [27:18<05:27, 327.68s/it]
+Traceback (most recent call last):
+  File "/Users/kusumaj/Documents/GitHub/Agent-First-Organization/create.py", line 83, in <module>
+    generate_taskgraph(args)
+  File "/Users/kusumaj/Documents/GitHub/Agent-First-Organization/create.py", line 30, in generate_taskgraph
+    taskgraph_filepath = generator.generate()
+  File "/Users/kusumaj/Documents/GitHub/Agent-First-Organization/arklex/orchestrator/generator/generator.py", line 428, in generate
+    best_practice = self._generate_best_practice(task)
+  File "/Users/kusumaj/Documents/GitHub/Agent-First-Organization/arklex/orchestrator/generator/generator.py", line 244, in _generate_best_practice
+    answer = final_chain.invoke(input_prompt)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/langchain_core/runnables/base.py", line 3023, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/langchain_core/language_models/chat_models.py", line 307, in invoke
+    self.generate_prompt(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/langchain_core/language_models/chat_models.py", line 843, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/langchain_core/language_models/chat_models.py", line 683, in generate
+    self._generate_with_cache(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/langchain_core/language_models/chat_models.py", line 908, in _generate_with_cache
+    result = self._generate(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/langchain_openai/chat_models/base.py", line 955, in _generate
+    response = self.client.create(**payload)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/openai/_utils/_utils.py", line 279, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/openai/resources/chat/completions/completions.py", line 914, in create
+    return self._post(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/openai/_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/openai/_base_client.py", line 919, in request
+    return self._request(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/openai/_base_client.py", line 1008, in _request
+    return self._retry_request(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/openai/_base_client.py", line 1057, in _retry_request
+    return self._request(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/openai/_base_client.py", line 955, in _request
+    response = self._client.send(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "/Users/kusumaj/Library/Python/3.9/lib/python/site-packages/httpcore/_backends/sync.py", line 128, in read
+    return self._sock.recv(max_bytes)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1226, in recv
+    return self.read(buflen)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ssl.py", line 1101, in read
+    return self._sslobj.read(len)
+KeyboardInterrupt
+[03/30/2025 10:04:40] {client.py:1991} WARNING - Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')

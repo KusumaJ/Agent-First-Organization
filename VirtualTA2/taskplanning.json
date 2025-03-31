@@ -1,0 +1,94 @@
+[
+    {
+        "task_name": "Provide explanations and clarifications on Bash syntax",
+        "steps": [
+            "Ask the user what specific topic or concept in Bash they need clarification on.",
+            "Provide a clear explanation of the requested Bash syntax or command, including examples if applicable.",
+            "Ask the user if they have any specific examples or scenarios where they encountered issues with the syntax.",
+            "Address any specific issues the user described, offering solutions or further explanations.",
+            "Inquire if the user needs clarification on any other Bash commands or concepts."
+        ]
+    },
+    {
+        "task_name": "Provide explanations and clarifications on C programming syntax",
+        "steps": [
+            "Ask the student to specify the particular area of C programming syntax they need clarification on, such as variables, loops, functions, or data types.",
+            "Provide an explanation of the specified C programming syntax, along with examples to illustrate the concepts.",
+            "Inquire if the student has any follow-up questions or if they encountered any specific errors related to the syntax they want to discuss further.",
+            "Clarify any misunderstandings the student has and provide additional examples or resources as needed.",
+            "Confirm if the student is satisfied with the explanation or if they need assistance with another topic in C programming."
+        ]
+    },
+    {
+        "task_name": "Assist with the usage and functionality of specific Bash commands",
+        "steps": [
+            "Assist with the usage and functionality of specific Bash commands"
+        ]
+    },
+    {
+        "task_name": "Assist with the usage and functionality of specific C commands",
+        "steps": [
+            "Ask the student to specify which C command they need help with, including any specific syntax or functionality they are unsure about.",
+            "Provide a brief explanation of the specified C command, including its syntax, usage, and any common errors associated with it.",
+            "Inquire if the student has a specific code snippet or error message related to the command that they would like to discuss.",
+            "Offer to analyze the provided code snippet or error message to give tailored advice or suggest corrections.",
+            "Confirm with the student if their questions have been answered or if they need further clarification on any aspect of the command or its usage."
+        ]
+    },
+    {
+        "task_name": "Help troubleshoot common errors in Bash programming",
+        "steps": [
+            "Ask the user to describe the specific error they are encountering in their Bash programming.",
+            "Request the user to provide a code snippet or command where the error occurs to better understand the context.",
+            "Analyze the provided code snippet or command, and respond with potential reasons for the error along with suggestions for fixes.",
+            "Ask the user if they tried any solutions or if they want more clarification on the suggested fixes.",
+            "Confirm if the user's issue is resolved, or if they need further assistance or additional examples."
+        ]
+    },
+    {
+        "task_name": "Help troubleshoot common errors in C programming",
+        "steps": [
+            "Ask the student to describe the specific error they are encountering in their C programming code.",
+            "Request the student to provide the relevant code snippet that is causing the issue.",
+            "Analyze the provided code snippet and error description to identify potential causes of the error.",
+            "Provide the student with possible solutions or debugging tips to resolve the error.",
+            "Ask the student if they need further clarification on the solutions provided or if they have additional questions."
+        ]
+    },
+    {
+        "task_name": "Provide information on tools for compiling C code",
+        "steps": [
+            "Provide information on tools for compiling C code"
+        ]
+    },
+    {
+        "task_name": "Suggest debugging techniques and tools for Bash scripts",
+        "steps": [
+            "Inquire about the specific issues the student is facing with their Bash script, including error messages or unexpected behavior.",
+            "Suggest a relevant debugging technique based on the student's described issue, such as using 'set -x' to trace execution or echoing variables.",
+            "Ask if the student has tried any debugging techniques so far and what the outcomes were.",
+            "Based on the student's responses, recommend appropriate debugging tools or commands, such as 'bash -n' for syntax checking or using a debugger like 'gdb'.",
+            "Confirm if the suggestions were helpful and ask if the student has any further questions or needs clarification on any concepts."
+        ]
+    },
+    {
+        "task_name": "Suggest debugging techniques and tools for C programming",
+        "steps": [
+            "Ask the student to describe the specific issue they are facing in C programming that requires debugging techniques.",
+            "Based on the student's description, suggest relevant debugging techniques such as using print statements, a debugger tool, or code reviews.",
+            "Inquire if the student is familiar with any specific debugging tools like GDB or Valgrind, and if they would like recommendations.",
+            "Provide the student with detailed instructions on how to use the suggested debugging tools effectively.",
+            "Ask if the student has any further questions or needs clarification on debugging techniques or tools."
+        ]
+    },
+    {
+        "task_name": "Explain the UNIX system call interface and how to use it in programming",
+        "steps": [
+            "Ask the student if they have any specific questions or topics related to the UNIX system call interface that they would like explained.",
+            "Provide a brief overview of the UNIX system call interface, covering its purpose and general usage in programming.",
+            "Inquire if the student needs clarification on any specific system calls or examples related to their programming tasks.",
+            "Explain the particular system calls requested by the student, including detailed examples and code snippets.",
+            "Ask the student if they have encountered any errors or issues while working with UNIX system calls that they would like assistance with."
+        ]
+    }
+]

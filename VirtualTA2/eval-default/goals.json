@@ -1,0 +1,7 @@
+[
+    "I want to understand how to use the `std::forward_list::unique` function effectively, including its parameters, return values, and examples of its usage in different scenarios.",
+    "I want to understand how to use the `std::forward_list<T,Allocator>::unique` function effectively, including its parameters, return values, and examples of its usage in different scenarios.",
+    "I want to understand how to use the `unique` function with a custom binary predicate in `std::forward_list`, including its requirements and any potential pitfalls.",
+    "I want to understand how to effectively use the Execution control library in C++26 to manage asynchronous tasks and create task execution graphs.",
+    "I want to understand how to effectively use `std::optional` in my C++ code, including its member functions and best practices for handling cases where a value may or may not be present."
+]

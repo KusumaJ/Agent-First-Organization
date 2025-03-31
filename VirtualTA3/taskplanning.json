@@ -1,0 +1,102 @@
+[
+    {
+        "task_name": "Provide clarifications on C programming concepts",
+        "steps": [
+            "Ask the user to specify which C programming concept they would like clarification on (e.g., variables, loops, functions).",
+            "Provide a brief explanation or definition of the requested C programming concept.",
+            "Inquire if the user needs examples or further insights related to the concept mentioned.",
+            "If the user requests examples, provide relevant code snippets or scenarios demonstrating the concept.",
+            "Ask the user if they have any additional questions or need clarification on another C programming topic."
+        ]
+    },
+    {
+        "task_name": "Offer support for Bash scripting fundamentals",
+        "steps": [
+            "Welcome the user and inquire about their specific questions or challenges regarding Bash scripting fundamentals.",
+            "Provide a brief explanation or clarification based on the user's question about Bash scripting, ensuring the information is clear and relevant.",
+            "Ask the user if they need further clarification on that topic or if they would like to learn about another aspect of Bash scripting.",
+            "Offer additional resources or examples to help the user better understand Bash scripting if they express the need for more information.",
+            "Encourage the user to practice what they've learned and ask if they have any more questions or need further assistance with their Bash scripting studies."
+        ]
+    },
+    {
+        "task_name": "Educate about compilation tools in C and Bash",
+        "steps": [
+            "Ask the user to specify which compilation tools they would like to learn more about in C and Bash.",
+            "Provide information about the specified compilation tools and their functions in both C and Bash, ensuring the explanations are clear and concise.",
+            "Inquire if the user wants examples of how to use the mentioned compilation tools in practical scenarios.",
+            "Offer example code snippets or commands demonstrating the usage of the compilation tools in C and Bash.",
+            "Ask the user if they have any further questions or need additional clarification regarding the compilation tools."
+        ]
+    },
+    {
+        "task_name": "Explain debugging methods for C and Bash programs",
+        "steps": [
+            "Ask the user to specify whether they need debugging methods for C programs, Bash programs, or both.",
+            "Based on the user's response, provide a brief overview of common debugging methods applicable to C programs or Bash programs.",
+            "Inquire if the user has a specific debugging scenario or code issue they would like assistance with.",
+            "Offer detailed debugging techniques or tips tailored to the user's specific scenario or code issue.",
+            "Ask if the user needs further clarification on any of the methods or if there are more topics related to debugging they would like to explore."
+        ]
+    },
+    {
+        "task_name": "Discuss file and terminal I/O in UNIX systems",
+        "steps": [
+            "Ask the user what specific aspects of file and terminal I/O in UNIX systems they would like to discuss.",
+            "Provide a clarification or explanation related to the user's question, focusing on file and terminal I/O concepts.",
+            "Inquire if the user has a specific example or scenario in mind where they need help with file and terminal I/O.",
+            "Offer further clarification or additional information based on the user's example or scenario.",
+            "Ask if the user has any additional questions or needs more resources on file and terminal I/O in UNIX systems."
+        ]
+    },
+    {
+        "task_name": "Share design best practices for robust programming in C",
+        "steps": [
+            "Greet the user and inquire about their specific interest or challenge within C programming to tailor the support provided.",
+            "Based on the user's response, provide best practices related to C programming, such as proper memory management, code modularity, and error handling.",
+            "Ask the user if they would like examples or further clarification on any of the practices mentioned.",
+            "If the user requests examples, provide code snippets or scenarios that illustrate the best practices in action.",
+            "Encourage the user to ask follow-up questions or share specific areas they would like more information on regarding C programming."
+        ]
+    },
+    {
+        "task_name": "Explain inter-process communication methods in UNIX",
+        "steps": [
+            "Greet the user and ask if they have any specific questions about inter-process communication methods in UNIX.",
+            "If the user has a specific question, provide a detailed explanation of that method (e.g., pipes, message queues, shared memory) as needed.",
+            "If the user is seeking a general overview, summarize the various inter-process communication methods available in UNIX.",
+            "Ask the user if they would like further examples or clarifications on any specific inter-process communication method.",
+            "Offer additional resources or exercises if they wish to learn more about inter-process communication in practice."
+        ]
+    },
+    {
+        "task_name": "Clarify how signals work in C programming on UNIX",
+        "steps": [
+            "Begin by asking the user what specific aspect of signals in C programming they would like to clarify.",
+            "Provide a brief overview of what signals are in the context of C programming, especially in UNIX.",
+            "Ask if the user would like examples of handling signals in C or specific signal functions.",
+            "Provide examples or code snippets related to signal handling based on the user's preferences.",
+            "Invite the user to ask any further questions related to signals or any other topic in C programming."
+        ]
+    },
+    {
+        "task_name": "Provide insights into threading in C programming",
+        "steps": [
+            "Ask the user for specific topics or concepts related to threading in C programming that they would like to understand better.",
+            "Based on the user's input, provide a detailed explanation or clarification of the threading concepts mentioned, such as thread creation, synchronization, or thread safety.",
+            "Inquire if the user has any follow-up questions or if they need further explanations on related topics, like mutexes, condition variables, or thread libraries.",
+            "Offer practical examples or code snippets to demonstrate threading concepts in action if the user requests it.",
+            "Ask the user if they would like to explore additional resources or exercises to reinforce their understanding of threading in C programming."
+        ]
+    },
+    {
+        "task_name": "Offer guidance on networking using sockets in C",
+        "steps": [
+            "Ask the user what specific aspect of networking using sockets in C they need help with (e.g., creating a socket, binding, listening, accepting connections).",
+            "Provide a brief explanation or example code snippet based on the user's specific query regarding networking in sockets.",
+            "Ask the user if they need further clarification on the provided explanation or example.",
+            "Based on the user's response, delve deeper into the topic or provide additional resources or examples that could aid their understanding.",
+            "Confirm if the user has any more questions on sockets in C or if they would like to explore another topic related to C programming."
+        ]
+    }
+]

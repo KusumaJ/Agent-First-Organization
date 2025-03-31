@@ -1,0 +1,1469 @@
+{
+    "nodes": [
+        [
+            "0",
+            {
+                "resource": {
+                    "id": null,
+                    "name": "MessageWorker"
+                },
+                "attribute": {
+                    "value": "Hello and welcome to your Virtual Teaching Assistant for the Advanced Programming Course! How can I assist you with your learning today?",
+                    "task": "start message",
+                    "directed": false
+                },
+                "limit": 1,
+                "type": "start"
+            }
+        ],
+        [
+            "1",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Hello! What specific course materials or topics would you like clarification on?",
+                    "task": "Greet the user and ask which specific course materials or topics they need clarification on.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "2",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "You mentioned the topic of calculus. Let me explain the concept of derivatives in detail.",
+                    "task": "Listen to the user's query and provide detailed information or explanations related to the specified course material.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "3",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you need further clarification on any related topics, or is there anything else in the course I can help you with?",
+                    "task": "Ask the user if they need further clarification on related topics or if there are any other areas of the course they would like assistance with.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "4",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Feel free to ask any additional questions or let me know if there are specific challenges you're facing in the course.",
+                    "task": "Encourage the user to ask additional questions or mention specific challenges they are facing in the course.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "5",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "I recommend reading 'Understanding Calculus' for more insights, and you might also find the exercises in Chapter 3 helpful.",
+                    "task": "Provide resources or suggestions for further learning, such as recommended readings or exercises related to the user's questions.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "6",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Can you describe the programming exercise you're working on and let me know the specific challenges you're facing?",
+                    "task": "Ask the user to describe the programming exercise they are working on and what specific challenges they are facing.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "7",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "It sounds like you're struggling with loops. A loop allows you to execute a block of code multiple times. Would you like a specific example?",
+                    "task": "Provide relevant clarifications or explanations related to the programming concepts involved in the user's exercise.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "8",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like to see more examples or any additional resources on this topic?",
+                    "task": "Ask if the user would like more examples or additional resources related to the concepts being discussed.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "9",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "I encourage you to try solving the exercise again with the guidance I've provided. If you need more help, feel free to ask!",
+                    "task": "Encourage the user to attempt solving the exercise again with the provided guidance and ask for any further assistance if needed.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "10",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "If you have made progress on your code, I can review it and provide some constructive feedback. Would you like to share it with me?",
+                    "task": "Offer to review the user's code or solution if they have made progress and provide constructive feedback or suggestions.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "11",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific system calls are you interested in learning about?",
+                    "task": "Ask the user to specify which system calls they need information about or what specific aspect of system calls they would like to learn.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "12",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "The 'read' system call is used to read data from a file descriptor. Its syntax is 'ssize_t read(int fd, void *buf, size_t count);' and is commonly used in file handling.",
+                    "task": "Provide an explanation or overview of the specified system calls, including their purpose, syntax, and common use cases.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "13",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any specific scenarios or examples where you'd like to apply these system calls?",
+                    "task": "Inquire if the user has any particular examples or scenarios in mind where they want to use these system calls.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "14",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here's an example of using the 'read' system call in C: 'char buffer[100]; ssize_t bytesRead = read(fd, buffer, sizeof(buffer));'",
+                    "task": "Assist the user by providing examples or code snippets that demonstrate how to implement the system calls in a practical context.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "15",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you need any further clarification on the examples I've provided or have other questions about system calls?",
+                    "task": "Ask the user if they need further clarification on the examples provided or have any other questions related to system calls.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "16",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Are you interested in debugging techniques for BASH, C, or both?",
+                    "task": "Ask the user if they are looking for debugging techniques related to BASH, C, or both.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "17",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "For BASH, one effective debugging technique is using 'set -x' to print each command before executing it. Would you like to learn more about this?",
+                    "task": "Provide a brief overview of debugging techniques for the chosen programming language, explaining one technique at a time.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "18",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like more details on using 'set -x' or would you prefer to learn about another debugging technique?",
+                    "task": "Ask the user if they would like more detailed information on the technique just explained or if they want to learn about another technique.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "19",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Another technique is using 'echo' statements to track variables' values throughout the script. Do you have any questions about 'set -x' before we move on?",
+                    "task": "Explain the next debugging technique or offer to clarify any doubts regarding the previously discussed technique.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "20",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you feel comfortable with the techniques we discussed, or would you like more examples or further assistance?",
+                    "task": "Confirm if the user has understood the techniques discussed, or if they need further assistance or examples.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "21",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific programming language or topic do you need help with? Is it BASH or C?",
+                    "task": "Ask the user what specific programming language or topic they need help with, either BASH or C, related to compiling code.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "22",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "In C, the compiling process involves using a compiler like gcc. The command 'gcc filename.c -o outputname' will compile your code.",
+                    "task": "Provide a brief explanation of the compiling process for the selected language, including the necessary commands or tools required.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "23",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any specific code snippets or files that you need help with, or would you like to see an example?",
+                    "task": "Inquire if the user has specific code snippets or files they need assistance with in compiling, or if they would like to see an example.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "24",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Let's walk through the compiling process. First, open your terminal and navigate to your file. Next, type 'gcc yourfile.c -o youroutput' and press Enter.",
+                    "task": "Walk the user through the compiling process step-by-step, based on their input or example provided, ensuring clarity and understanding.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "25",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any further questions about the compiling process in BASH or C? Or do you need help with any other related topics?",
+                    "task": "Ask if the user has any further questions about the compiling process in BASH or C, or if they need additional help with related topics.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "26",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific concepts related to inter-process communication would you like to clarify?",
+                    "task": "Begin by asking the user which specific concepts related to inter-process communication they would like clarification on.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "27",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Inter-process communication allows processes to communicate with each other. For example, message passing and shared memory are two common methods. Would you like more details on a specific method?",
+                    "task": "Provide a detailed explanation of the selected inter-process communication concept, including examples where applicable.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "28",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any follow-up questions or is there anything specific that you find confusing?",
+                    "task": "Encourage the user to ask follow-up questions or clarify any points that may be confusing.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "29",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like to explore related topics or diving deeper into any specific aspect of inter-process communication?",
+                    "task": "Assess the user's understanding by asking if they would like to explore related topics or deeper aspects of inter-process communication.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "30",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "To summarize, we covered message passing and shared memory as two key concepts. For further learning, I recommend looking at online tutorials or exercises related to these topics.",
+                    "task": "Summarize the key points discussed and suggest additional resources or exercises for further learning.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "31",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific aspect of socket programming do you need assistance with? Are you looking for basics, APIs, or something else?",
+                    "task": "Ask the user to specify which aspect of socket programming they need assistance with (e.g., basics, APIs, networking concepts, specific programming language).",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "32",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Socket programming involves creating a connection between a client and a server over a network. It can be done using various APIs and programming languages.",
+                    "task": "Provide a brief overview or explanation based on the user's specified aspect of socket programming.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "33",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any specific questions or examples in mind that you'd like to discuss regarding socket programming?",
+                    "task": "Inquire if the user has any specific questions or examples they would like to discuss further.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "34",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here is a simple example of a socket connection in Python:\n\n```python\nimport socket\n\ns = socket.socket()  # Create a socket object\ns.connect(('localhost', 12345))  # Connect to a server\n```",
+                    "task": "Respond to the user's queries with detailed explanations, examples, or code snippets related to socket programming.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "35",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you need any further clarification on that, or is there another aspect of socket programming you would like assistance with?",
+                    "task": "Check if the user needs additional clarification on the provided information or further assistance with related concepts.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "36",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any specific questions about threading in C, or would you prefer a general overview?",
+                    "task": "Ask the user if they have any specific questions regarding threading concepts in C or if they would like a general overview.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "37",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Threads are the smallest unit of processing that can be scheduled by an operating system. They allow for concurrent execution of multiple tasks, improving the efficiency of programs.",
+                    "task": "If the user requests a general overview, explain the basic principles of threading in C, including what threads are and why they are used.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "38",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like more detailed information on a specific aspect of threading, like thread creation or synchronization?",
+                    "task": "Inquire if the user wants more detailed information about a specific threading concept, such as thread creation, synchronization, or management.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "39",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "To create a thread in C, you can use the pthread_create function. Here\u2019s an example: \n```c\n#include <pthread.h>\nvoid* threadFunction(void* args) {\n    // Thread code goes here\n}\nint main() {\n    pthread_t thread;\n    pthread_create(&thread, NULL, threadFunction, NULL);\n    pthread_join(thread, NULL);\n    return 0;\n}\n```",
+                    "task": "Provide a detailed explanation of the specific threading concept the user requested, including relevant code snippets or examples if applicable.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "40",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any further questions or would you like clarification on any of the threading topics we've discussed?",
+                    "task": "Ask the user if they have any further questions or need clarification on any of the topics covered.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "41",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Which programming language are you focusing on for coding style and best practices?",
+                    "task": "Ask the user to specify the programming language they are focusing on for coding style and best practices.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "42",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here are some general coding style guidelines for Python: use 4 spaces for indentation, write clear and concise comments, and follow PEP 8 guidelines.",
+                    "task": "Provide general coding style guidelines and best practices specific to the user's selected programming language.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "43",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any specific scenarios or examples in mind where you need clarification on coding style or practices?",
+                    "task": "Inquire if the user has specific scenarios or examples in mind where they need clarification on coding style or practices.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "44",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Based on your example, it's better to use a list comprehension for efficiency and readability.",
+                    "task": "Offer tailored advice or corrections for the specific scenarios or examples provided by the user.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "45",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Would you like me to provide additional resources or references to enhance your understanding of coding styles and best practices?",
+                    "task": "Ask the user if they would like additional resources or references to further enhance their understanding of the coding styles and best practices.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "46",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "What specific project are you working on? Could you describe your current understanding of the requirements?",
+                    "task": "Inquire about the specific project the user is working on and ask them to describe their current understanding of the requirements.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "47",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "I noticed some points in your description that might be unclear. Would you like specific examples or additional resources to clarify?",
+                    "task": "Clarify any ambiguous points in the user's description of their project and ask if they need specific examples or additional resources related to the project requirements.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "48",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you have any specific questions regarding the project expectations or the grading criteria?",
+                    "task": "Ask the user if they have any specific questions about the expectations for the project or the grading criteria.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "49",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Do you feel you have a clear understanding of the project requirements? Is there anything else you need assistance with in planning or executing your project?",
+                    "task": "Confirm the user has a clear understanding of the project requirements and ask if they need further assistance with planning or executing their project.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "50",
+            {
+                "resource": {
+                    "id": "default_worker",
+                    "name": "DefaultWorker"
+                },
+                "attribute": {
+                    "value": "Here are some tips and resources to help you organize your project work effectively based on what we've discussed earlier.",
+                    "task": "Provide relevant resources or tips for the user to organize their project work effectively based on the earlier discussions.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ]
+    ],
+    "edges": [
+        [
+            "0",
+            "1",
+            {
+                "intent": "User wants clarification on course materials",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "1",
+            "2",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "2",
+            "3",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "3",
+            "4",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "4",
+            "5",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "6",
+            {
+                "intent": "User needs assistance with programming exercises",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "6",
+            "7",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "7",
+            "8",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "8",
+            "9",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "9",
+            "10",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "11",
+            {
+                "intent": "User requires help with understanding system calls",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "11",
+            "12",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "12",
+            "13",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "13",
+            "14",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "14",
+            "15",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "16",
+            {
+                "intent": "User asks about debugging techniques",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "16",
+            "17",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "17",
+            "18",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "18",
+            "19",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "19",
+            "20",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "21",
+            {
+                "intent": "User wants to learn about compilation processes",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "21",
+            "22",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "22",
+            "23",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "23",
+            "24",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "24",
+            "25",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "26",
+            {
+                "intent": "User needs help with inter-process communication concepts",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "26",
+            "27",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "27",
+            "28",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "28",
+            "29",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "29",
+            "30",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "31",
+            {
+                "intent": "User seeks guidance on socket programming",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "31",
+            "32",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "32",
+            "33",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "33",
+            "34",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "34",
+            "35",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "36",
+            {
+                "intent": "User requires help understanding threading",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "36",
+            "37",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "37",
+            "38",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "38",
+            "39",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "39",
+            "40",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "41",
+            {
+                "intent": "User is looking for best practices in code style",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "41",
+            "42",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "42",
+            "43",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "43",
+            "44",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "44",
+            "45",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "46",
+            {
+                "intent": "User wants to discuss course project requirements",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "46",
+            "47",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "47",
+            "48",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "48",
+            "49",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "49",
+            "50",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ]
+    ],
+    "role": "Virtual Teaching Assistant for Advanced Programming Course",
+    "user_objective": "Provide clarifications on course materials and support learning activities.",
+    "builder_objective": "Collect feedback on course materials and track student progress.",
+    "domain": "C++ Programming",
+    "intro": "This course serves as an introduction to systems programming in BASH and C on Linux. Students will be introduced to tools for compilation, debugging, editing, and automatically rebuilding software. Some aspects of the UNIX system call interface will be studied, including: terminal I/O, file I/O, process creation, signals, inter-process communication, threads, network protocol stacks, and programming with sockets. Style issues to be covered include: naming, layout, commenting, portability, design for robustness and debugability, and language pitfalls. This course is led by Professor Brian Borowski.",
+    "task_docs": [
+        {
+            "source": "https://github.com/cs3157-borowski/recitations#",
+            "num": 100
+        }
+    ],
+    "rag_docs": [
+        {
+            "source": "https://en.cppreference.com/w/cpp",
+            "num": 100
+        },
+        {
+            "source": "https://tldp.org/LDP/abs/html/",
+            "num": 50
+        }
+    ],
+    "tasks": [],
+    "workers": [
+        {
+            "id": "9aa47724-0b77-4752-9528-cf4b06a46915",
+            "name": "FaissRAGWorker",
+            "path": "faiss_rag_worker.py"
+        },
+        {
+            "id": "26bb6634-3bee-417d-ad75-23269ac17bc3",
+            "name": "MessageWorker",
+            "path": "message_worker.py"
+        },
+        {
+            "id": "9c15af81-04b3-443e-be04-a3522124b905",
+            "name": "SearchWorker",
+            "path": "search_worker.py"
+        },
+        {
+            "id": "b06c2b58-12c5-41fe-9838-e93b530e42e8",
+            "name": "DefaultWorker",
+            "path": "default_worker.py"
+        }
+    ],
+    "tools": [],
+    "nluapi": "",
+    "slotfillapi": ""
+}
